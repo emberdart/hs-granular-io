@@ -16,7 +16,6 @@ let
       websockets = lib.doJailbreak super.websockets;
       # not in nix yet
       feed = lib.dontCheck (lib.doJailbreak (self.callHackage "feed" "1.3.2.1" {}));
-      discord-haskell = lib.doJailbreak super.discord-haskell;
     };
   };
   shell = myHaskellPackages.shellFor {
