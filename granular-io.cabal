@@ -1,6 +1,6 @@
 cabal-version:      3.14
 name:               granular-io
-version:            0.7.0.0
+version:            0.7
 
 -- synopsis:
 -- description:
@@ -36,7 +36,7 @@ library
   build-depends:
     , base        >=4.19  && <4.23
     , bytestring  ^>=0.12.2
-    , file-io     ^>=0.2.0
+    , file-io     ^>=0.2
     , filepath    ^>=1.5.4
 
   -- Support older base versions
